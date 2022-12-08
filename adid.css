@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-around;
+    padding-right: 25px;
+    margin-right: 70px;
+}
+.category{
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;;
+}
+#p{
+    cursor:default;
+}
+.im1{
+    margin-top: 50px;
+    margin-left: 10%;
+    padding-bottom: 3px;
+}
+.im2{
+    margin-left: 10%;
+}
+.im3{
+    margin-left: 4.4px ;
+}
+.txt{
+    text-align: center; 
+}
+

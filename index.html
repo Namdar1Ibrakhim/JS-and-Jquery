@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body id = "body" onload="load()">
+    <div class="header">
+        <img src="https://www.adidas.co.id/media/logo/adidas-logo.png" width="100" onclick="window.location.reload()" alt="">
+        <div id ="p" onclick="change(this)" onmouseover="sizebig(this)" onmouseout="sizesmall(this)" class="category">MEN</div>
+        <div id ="p" onclick="change(this)" onmouseover="sizebig(this)" onmouseout="sizesmall(this)" class="category">WOMEN</div>
+        <div id = "p" onclick="change(this)" onmouseover="sizebig(this)" onmouseout="sizesmall(this)" class="category">KIDS</div>
+        <div id = "p" onclick="change(this)" onmouseover="sizebig(this)" onmouseout="sizesmall(this)" class="category">SALE</div>
+    </div>
+
+    <div class="intro" id = "int">
+        <img onclick="load()" class = "im1" id ="photo1" onmouseover="big(this)" onmouseout="small(this)" src="https://zz.jumia.is/cms/store-in-store/adidas/310822_ADIDAS_SB_DT.jpg" alt="">
+        <img class = "im2" id="photo2" onmouseover="big(this)" onmouseout="small(this)" src= "https://zz.jumia.is/cms/brands/2907_trip-women-adi-originals.jpg" alt="";>
+        <img class="im3" id="photo3" onmouseover="big(this)" onmouseout="small(this)" src="https://zz.jumia.is/cms/brands/2907_trip-men-adi-originals.jpg" alt="";>
+        <img class = "im3" id="photo4" onmouseover="big(this)" onmouseout="small(this)" src="https://zz.jumia.is/cms/brands/2907_trip-kids-adi-originals.jpg" alt="">
+        <div id = "fx">
+        <p class = "txt" id = "txt" style="font-size: 25px; font-family: 'Poppins', sans-serif;">ADIDAS</p>
+        <p class = "txt1" id = "txt1" style="font-size: 20px;"></p>
+        <p class = "txt2" id = "txt2" style="font-size: 30px;"></p>
+        </div>
+    </div>
+    <script src="adi.js"></script>
+</body>
+</html>
