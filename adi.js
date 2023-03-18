@@ -39,7 +39,7 @@ function change(element){
             load();
             break;
         case "SALE":
-            document.getElementById("photo1").src = "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3468a4eaab024fd08b74accd017da9a9_9366/Game_and_Go_Pullover_Hoodie_Blue_GT0054_21_model.jpg";
+            document.getElementById("photo1").src = "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/09c5ea6df1bd4be6baaaac5e003e7047_9366/Forum_Low_Shoes_White_FY7756_01_standard.jpg";
             document.getElementById("txt").innerHTML = "GAME AND GO PULLOVER HOODIE";
             document.getElementById("txt1").innerHTML = "Your heart is pumping, your muscles are screaming and the energy is rising as you push towards your last rep. Reward your efforts by sinking into the cozy comfort of this fleece adidas hoodie. As you walk out the gym doors, AEROREADY absorbs moisture to help you recharge. This product is made with recycled content as part of our ambition to end plastic waste..";
             document.getElementById("txt2").innerHTML =  "$29";
